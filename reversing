@@ -1,0 +1,10 @@
+s=input()
+k=len(s)
+print(k)
+print(s[::-1])
+data=s.split()
+s=data[::-1]
+print(*s)
+for i in data:
+     print(i[::-1],end=" ")
+
